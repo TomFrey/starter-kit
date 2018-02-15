@@ -8,7 +8,9 @@ js File to start with modules
 
 **Folgende Kommandos Ausführen**:
 
-npm install     -> (installiert alle Projekt Abhängigkeiten)
+rm -rf node_modules
 
-npm start       -> (setzt einen Watcher auf die scss Files)
+npm install     -> installiert alle Projekt Abhängigkeiten
+
+npm start       -> setzt einen Watcher auf die scss Files
 

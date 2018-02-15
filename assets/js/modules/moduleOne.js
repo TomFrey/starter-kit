@@ -8,6 +8,7 @@ var ModuleOne = (function(){
     function init(){
         test = 'defaultValue';
         //hier kommt die Funktionalität von ModuleOne...
+        return test;
     }
 
     //public api
@@ -15,3 +16,7 @@ var ModuleOne = (function(){
         init: init
     };
 })();
+
+//braucht es nur, damit die Tests funktionieren
+module.exports = ModuleOne;
+

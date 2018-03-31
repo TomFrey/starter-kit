@@ -6,7 +6,9 @@ var ModuleOne = (function(){
     var test;
 
     function init(){
+        console.log('init() of ModuleOne called');
         test = 'defaultValue';
+
         //hier kommt die Funktionalität von ModuleOne...
         return test;
     }
@@ -17,6 +19,8 @@ var ModuleOne = (function(){
     };
 })();
 
-//braucht es nur, damit die Tests funktionieren
-module.exports = ModuleOne;
 
+//braucht es nur, damit die Tests funktionieren
+if (typeof module !== 'undefined' && module) {
+  module.exports.ModuleOne = ModuleOne;
+}

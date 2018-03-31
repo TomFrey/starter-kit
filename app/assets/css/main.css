@@ -41,8 +41,25 @@ table {
 /**
  * Components
  */
+.wrapper nav {
+  background-color: #96ff96;
+  height: 50px; }
+  .wrapper nav ul {
+    display: flex; }
+    .wrapper nav ul li {
+      list-style: none;
+      padding: 5px; }
+
 .wrapper {
-  background-color: #646464;
+  background-color: #ffff96;
   margin: 0 auto;
-  width: 960px;
-  height: 100px; }
+  width: 960px; }
+  .wrapper header {
+    background-color: #c8c8c8;
+    height: 50px; }
+  .wrapper main {
+    background-color: #c8ffc8;
+    height: 300px; }
+  .wrapper footer {
+    background-color: #c8c8c8;
+    height: 50px; }

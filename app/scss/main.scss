@@ -1,0 +1,35 @@
+/**
+ * Base
+ */
+
+@import "base/reset";
+
+/**
+ * Components
+ */
+
+@import "components/sample";
+@import "components/navigation";
+
+
+.wrapper{
+  background-color: rgb(255,255,150);
+  margin: 0 auto;
+  width: 960px;
+
+  header{
+    background-color: rgb(200,200,200);
+    height: 50px;
+  }
+
+  main{
+    background-color: rgb(200,300,200);
+    height: 300px;
+  }
+
+  footer{
+    background-color: rgb(200,200,200);
+    height: 50px;
+  }
+
+}
